@@ -1,3 +1,4 @@
+
 {
   "name": "velocity",
   "description": "A fully featured web browser built using web technologies.",
@@ -6,10 +7,7 @@
     "dev": "concurrently \"rollup -c --environment BUILD:development\" \"solid-start dev --host\" \"bare-server-node --host=localhost --port=8080\"",
     "build": "rollup -c --environment BUILD:production && solid-start build",
     "start": "node scripts/server.js",
-    "pretty": "prettier --write .",
-    "build": "next build",
-    "start": "next start"
-
+    "pretty": "prettier --write ."
   },
   "type": "module",
   "devDependencies": {
@@ -48,9 +46,7 @@
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",
     "solid-js": "^1.6.2",
-    "solid-start": "^0.2.0",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "solid-start": "^0.2.0"
   },
   "engines": {
     "node": ">=18"
